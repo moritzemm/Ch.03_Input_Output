@@ -1,4 +1,4 @@
-print("Hello World!")
+'''print("Hello World!")
 print("This Is Me")
 print(5+4)
 print("5+4")
@@ -12,3 +12,8 @@ print("I want to print a double quote\"right here")
 firstname = input("What is your first name? ")
 lastname = input("What is your last name? ")
 print("nice to meet you!",firstname,lastname)
+'''
+length=int(input("what is the length of the rectangle?"))
+width=int(input("what is the width of the rectangle?"))
+area=length*width
+print("The area of the rectangle is",area)

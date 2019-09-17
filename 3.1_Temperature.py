@@ -9,10 +9,13 @@ In: 32  Out: 0
 In: 212  Out: 100
 In: 52  Out: 11.1
 In: 25  Out: -3.9
-In: -40  Out: ???
+In: -40  Out: -40.0
+(32°F − 32) × 5/9 = 0°C
 
 '''
-
-
+print("Welcome to your temperature converter, F to C")
+F=int(input("what is the temperature in Fahrenheit?"))
+C= (5/9)*(F-32)
+print("Your temperature in Celsius is",C)
 
 
